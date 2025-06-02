@@ -45,16 +45,6 @@ under the License.
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-reflect</artifactId>
-            <version>2.10.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-compiler</artifactId>
-            <version>2.10.6</version>
-        </dependency>
-        <dependency>
             <groupId>org.scala-sbt</groupId>
             <artifactId>incremental-compiler</artifactId>
             <version>0.13.18-SNAPSHOT</version>
@@ -74,26 +64,6 @@ under the License.
             <artifactId>compile</artifactId>
             <version>0.13.18-SNAPSHOT</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.scala-sbt</groupId>-->
-<!--            <artifactId>api</artifactId>-->
-<!--            <version>0.13.18-SNAPSHOT</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.scala-sbt</groupId>-->
-<!--            <artifactId>io</artifactId>-->
-<!--            <version>0.13.18-SNAPSHOT</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.scala-sbt</groupId>-->
-<!--            <artifactId>classpath</artifactId>-->
-<!--            <version>0.13.18-SNAPSHOT</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.scala-sbt</groupId>-->
-<!--            <artifactId>relation</artifactId>-->
-<!--            <version>0.13.18-SNAPSHOT</version>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>
