@@ -64,6 +64,36 @@ under the License.
             <artifactId>sbt-interface</artifactId>
             <version>0.13.15</version>
         </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>logging</artifactId>
+            <version>0.13.18-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>compile</artifactId>
+            <version>0.13.18-SNAPSHOT</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.scala-sbt</groupId>-->
+<!--            <artifactId>api</artifactId>-->
+<!--            <version>0.13.18-SNAPSHOT</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.scala-sbt</groupId>-->
+<!--            <artifactId>io</artifactId>-->
+<!--            <version>0.13.18-SNAPSHOT</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.scala-sbt</groupId>-->
+<!--            <artifactId>classpath</artifactId>-->
+<!--            <version>0.13.18-SNAPSHOT</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.scala-sbt</groupId>-->
+<!--            <artifactId>relation</artifactId>-->
+<!--            <version>0.13.18-SNAPSHOT</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
