@@ -20,9 +20,9 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
+        <groupId>com.imanage.sbt-compiler-maven-plugin</groupId>
         <artifactId>sbt-compilers</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -37,6 +37,27 @@ under the License.
             <groupId>com.typesafe.zinc</groupId>
             <artifactId>zinc</artifactId>
             <version>0.3.15</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.typesafe.sbt</groupId>
+                    <artifactId>compiler-interface</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.typesafe.sbt</groupId>
+                    <artifactId>incremental-compiler</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.imanage.sbt</groupId>
+            <artifactId>compiler-interface</artifactId>
+            <version>0.13.18</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.imanage.sbt</groupId>
+            <artifactId>incremental-compiler</artifactId>
+            <version>0.13.18</version>
         </dependency>
     </dependencies>
 
